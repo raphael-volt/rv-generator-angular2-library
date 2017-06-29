@@ -1,0 +1,38 @@
+{
+  "name": "rv-generator-angular2-library",
+  "version": "0.1.1",
+  "description": "Generator to create an Angular 2 library",
+  "homepage": "https://github.com/raphael-volt/rv-generator-angular2-library.git",
+  "author": {
+    "name": "Raphaël Volt",
+    "email": "raphael.ketmie@gmail.com"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "underscore.string": "^3.3.4",
+    "yeoman-generator": "^1.0.0",
+    "yosay": "^2.0.0"
+  },
+  "devDependencies": {
+    "yeoman-assert": "^2.2.1",
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^2.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.4",
+    "gulp-mocha": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-nsp": "^2.4.1",
+    "gulp-coveralls": "^0.1.4"
+  },
+  "repository": "https://github.com/raphael-volt/rv-generator-angular2-library.git",
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  }
+}
